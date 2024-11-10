@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 import os, sys
 import art
-import colorize
 def init(app):
     with open("colorize.py", "w") as f:
         f.write('''def colorize(text, na):
