@@ -56,7 +56,7 @@ def on_start():
     print(colorize('> {text} userbot was launched. {text} by Ladvix\\n\\n', "{color}"))''')
     	message.edit_text(f"Текст запуска успешно изменён!")
     @app.on_message(filters.command('k', prefixes = '.') & filters.me)
-    def negri():
+    def negri(client, message):
     	print('''1.gray
 2.red
 3.green
